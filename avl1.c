@@ -12,7 +12,7 @@ if(temp==NULL)
 {
      struct node* newnode;
 newnode=(struct node*)malloc(sizeof(struct node));
-newnode->data=i;
+newnode->data=data;
 newnode->left=NULL;
 newnode->right=NULL;
 return newnode;
